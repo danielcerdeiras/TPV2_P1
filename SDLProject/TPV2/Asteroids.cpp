@@ -1,5 +1,5 @@
 #include "SDL_macros.h"
-#include "PingPong.h"
+#include "Asteroids.h"
 #include <assert.h>
 
 #include "BallMoveBehaviour.h"
@@ -20,22 +20,27 @@
 
 using namespace std;
 
-PingPong::PingPong() :
+Asteroids::Asteroids() :
 		game_(nullptr), //
 		entityManager_(nullptr), //
 		exit_(false) {
 	initGame();
 }
 
-PingPong::~PingPong() {
+Asteroids::~Asteroids() {
 	closeGame();
 }
 
-void PingPong::initGame() {
+void Asteroids::initGame() {
 
-	game_ = SDLGame::init("Ping Pong", _WINDOW_WIDTH_, _WINDOW_HEIGHT_);
+	game_ = SDLGame::init("Asteroids", _WINDOW_WIDTH_, _WINDOW_HEIGHT_);
 
 	entityManager_ = new EntityManager(game_);
+
+	/*Entity* jet = entityManager_->addEntity();
+	Transform* jetTR = jet->addComponent<Transform>();
+	jetTR->setPos(5, game_->getWindowHeight() / 2 - 25);
+	jetTR->setWH(10, 50);*/
 
 	Entity *leftPaddle = entityManager_->addEntity();
 	Transform *leftPaddleTR = leftPaddle->addComponent<Transform>();
@@ -69,11 +74,11 @@ void PingPong::initGame() {
 	gameManager->addComponent<GameCtrl>(GETCMP2(ball, Transform));
 }
 
-void PingPong::closeGame() {
+void Asteroids::closeGame() {
 	delete entityManager_;
 }
 
-void PingPong::start() {
+void Asteroids::start() {
 	exit_ = false;
 
 	while (!exit_) {
@@ -89,11 +94,11 @@ void PingPong::start() {
 	}
 }
 
-void PingPong::stop() {
+void Asteroids::stop() {
 	exit_ = true;
 }
 
-void PingPong::handleInput() {
+void Asteroids::handleInput() {
 
 	InputHandler *ih = InputHandler::instance();
 
@@ -117,11 +122,11 @@ void PingPong::handleInput() {
 
 }
 
-void PingPong::update() {
+void Asteroids::update() {
 	entityManager_->update();
 }
 
-void PingPong::render() {
+void Asteroids::render() {
 	SDL_SetRenderDrawColor(game_->getRenderer(), COLOR(0x00AAAAFF));
 	SDL_RenderClear(game_->getRenderer());
 

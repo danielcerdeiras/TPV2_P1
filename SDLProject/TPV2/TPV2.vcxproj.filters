@@ -15,219 +15,225 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Asteroids.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BallMoveBehaviour.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="checkML.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ver_7\AudioManager.h">
+    <ClInclude Include="Collisions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ver_7\BallMoveBehaviour.h">
+    <ClInclude Include="Component.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ver_7\Collisions.h">
+    <ClInclude Include="ecs.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ver_7\Component.h">
+    <ClInclude Include="Entity.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ver_7\ecs.h">
+    <ClInclude Include="FighterViewer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ver_7\Entity.h">
+    <ClInclude Include="Font.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ver_7\Font.h">
+    <ClInclude Include="FontsManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ver_7\FontsManager.h">
+    <ClInclude Include="GameCtrl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ver_7\GameCtrl.h">
+    <ClInclude Include="GameLogic.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ver_7\GameLogic.h">
+    <ClInclude Include="InputHandler.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ver_7\InputHandler.h">
+    <ClInclude Include="jute.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ver_7\jute.h">
+    <ClInclude Include="Manager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ver_7\Manager.h">
+    <ClInclude Include="ObjectPool.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ver_7\ObjectPool.h">
+    <ClInclude Include="PaddleKBCtrl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ver_7\PaddleKBCtrl.h">
+    <ClInclude Include="PaddleMouseCtrl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ver_7\PaddleMouseCtrl.h">
+    <ClInclude Include="PaddleMoveBehaviour.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ver_7\PaddleMoveBehaviour.h">
+    <ClInclude Include="RandomNumberGenerator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ver_7\PingPong.h">
+    <ClInclude Include="Rectangle.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ver_7\RandomNumberGenerator.h">
+    <ClInclude Include="Resources.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ver_7\Rectangle.h">
+    <ClInclude Include="ScoreManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ver_7\Resources.h">
+    <ClInclude Include="ScoreViewer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ver_7\ScoreManager.h">
+    <ClInclude Include="SDL_macros.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ver_7\ScoreViewer.h">
+    <ClInclude Include="SDLAudioManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ver_7\SDL_macros.h">
+    <ClInclude Include="SDLFontsManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ver_7\SDLAudioManager.h">
+    <ClInclude Include="SDLGame.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ver_7\SDLFontsManager.h">
+    <ClInclude Include="SDLTexturesManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ver_7\SDLGame.h">
+    <ClInclude Include="SimpleMoveBahviour.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ver_7\SDLTexturesManager.h">
+    <ClInclude Include="SRandBasedGenerator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ver_7\SimpleMoveBahviour.h">
+    <ClInclude Include="Texture.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ver_7\SRandBasedGenerator.h">
+    <ClInclude Include="TexturesManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ver_7\Texture.h">
+    <ClInclude Include="Transform.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ver_7\TexturesManager.h">
+    <ClInclude Include="Vector2D.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ver_7\Transform.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ver_7\Vector2D.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ver_7\VelocityVectorViewer.h">
+    <ClInclude Include="VelocityVectorViewer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ver_7\AudioManager.cpp">
+    <ClCompile Include="Asteroids.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ver_7\BallMoveBehaviour.cpp">
+    <ClCompile Include="AudioManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ver_7\Collisions.cpp">
+    <ClCompile Include="BallMoveBehaviour.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ver_7\Component.cpp">
+    <ClCompile Include="Collisions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ver_7\Entity.cpp">
+    <ClCompile Include="Component.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ver_7\Font.cpp">
+    <ClCompile Include="Entity.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ver_7\FontsManager.cpp">
+    <ClCompile Include="FighterViewer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ver_7\GameCtrl.cpp">
+    <ClCompile Include="Font.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ver_7\GameLogic.cpp">
+    <ClCompile Include="FontsManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ver_7\InputHandler.cpp">
+    <ClCompile Include="GameCtrl.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ver_7\jute.cpp">
+    <ClCompile Include="GameLogic.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ver_7\main.cpp">
+    <ClCompile Include="InputHandler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ver_7\Manager.cpp">
+    <ClCompile Include="jute.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ver_7\ObjectPool.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ver_7\PaddleKBCtrl.cpp">
+    <ClCompile Include="Manager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ver_7\PaddleMouseCtrl.cpp">
+    <ClCompile Include="ObjectPool.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ver_7\PaddleMoveBehaviour.cpp">
+    <ClCompile Include="PaddleKBCtrl.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ver_7\PingPong.cpp">
+    <ClCompile Include="PaddleMouseCtrl.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ver_7\RandomNumberGenerator.cpp">
+    <ClCompile Include="PaddleMoveBehaviour.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ver_7\Rectangle.cpp">
+    <ClCompile Include="RandomNumberGenerator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ver_7\Resources.cpp">
+    <ClCompile Include="Rectangle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ver_7\ScoreManager.cpp">
+    <ClCompile Include="Resources.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ver_7\ScoreViewer.cpp">
+    <ClCompile Include="ScoreManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ver_7\sdl_macros.cpp">
+    <ClCompile Include="ScoreViewer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ver_7\SDLAudioManager.cpp">
+    <ClCompile Include="sdl_macros.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ver_7\SDLFontsManager.cpp">
+    <ClCompile Include="SDLAudioManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ver_7\SDLGame.cpp">
+    <ClCompile Include="SDLFontsManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ver_7\SDLTexturesManager.cpp">
+    <ClCompile Include="SDLGame.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ver_7\SimpleMoveBahviour.cpp">
+    <ClCompile Include="SDLTexturesManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ver_7\SRandBasedGenerator.cpp">
+    <ClCompile Include="SimpleMoveBahviour.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ver_7\Texture.cpp">
+    <ClCompile Include="SRandBasedGenerator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ver_7\TexturesManager.cpp">
+    <ClCompile Include="Texture.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ver_7\Transform.cpp">
+    <ClCompile Include="TexturesManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ver_7\Vector2D.cpp">
+    <ClCompile Include="Transform.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ver_7\VelocityVectorViewer.cpp">
+    <ClCompile Include="Vector2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VelocityVectorViewer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
